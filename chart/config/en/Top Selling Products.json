@@ -1,0 +1,17 @@
+{
+    "reply": [
+        {
+            "type": "text",
+            "prompt": "Here are the top selling products last month:\n",
+            "data": {
+                "text": [<#list data['items'][0..2] as item>"${item?counter}. ${item['product name']!''} ${item['subtotal']!''} USD\n"<#sep>,</#list>]
+            }
+        }
+    ],
+    "context": {
+        "topProducts": [
+            <#list data['items'][0..2] as item>{"product id": ${item['product id']!0}, "product name": "${item['product name']!'NA'}", "subtotal": ${item['subtotal']!0} }<#sep>,</#list>
+        ],
+        "query": ${data['items'][0]['product id']}
+    }
+}

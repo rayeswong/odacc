@@ -1,0 +1,34 @@
+{
+    "reply": [
+        {
+            "type": "bar",
+            "data": {
+                "labels": [<#list data['items'] as item>"${item['store name']!""}"<#sep>,</#list>],
+                "datasets": [{
+                    "label": "Revenue",
+                    "data": [<#list data['items'] as item>${item.revenue!"0"}<#sep>,</#list>],
+                    "backgroundColor": "rgba(255, 99, 132, 0.2)",
+                    "borderColor": "rgba(255, 99, 132, 1)",
+                    "borderWidth": 1
+                },
+                {
+                    "label": "Margin",
+                    "data": [<#list data['items'] as item>${item.margin!"0"}<#sep>,</#list>],
+                    "backgroundColor": "rgba(54, 162, 235, 0.2)",
+                    "borderColor": "rgba(54, 162, 235, 1)",
+                    "borderWidth": 1
+                }
+                ]
+            },
+            "options": {
+                "scales": {
+                    "yAxes": [{
+                        "ticks": {
+                            "beginAtZero": true
+                        }
+                    }]
+                }
+            }
+        }
+    ]
+}

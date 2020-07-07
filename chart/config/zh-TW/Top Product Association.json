@@ -1,0 +1,11 @@
+{
+    "reply": [
+        {
+            "type": "text",
+            "prompt": "銷售建議，購買Caffè Americano的顧客同時購買了以下商品:\n",
+            "data": {
+                "text": [<#list data['items'][0..2] as item>"${item?counter}. ${item['product name']!''} ${item['ppercent']?string["0.##%"]!''}\n"<#sep>,</#list>]
+            }
+        }
+    ]
+}

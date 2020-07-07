@@ -1,0 +1,51 @@
+{
+    "Revenue vs Budget By Month": {
+        "endpoint": "https://bx1unjqo2u0tny1-atpdemo.adb.uk-london-1.oraclecloudapps.com/ords/atpdemo/adr/revbugreport",
+        "config": {
+            "filepath": "./chart/config/",
+            "filename": "Revenue vs Budget By Month.json"
+        }
+    },
+    "Revenue vs Margin By Store": {
+        "endpoint": "https://bx1unjqo2u0tny1-atpdemo.adb.uk-london-1.oraclecloudapps.com/ords/atpdemo/adr/revmargreport",
+        "config": {
+            "filepath": "./chart/config/",
+            "filename": "Revenue vs Margin By Store.json"
+        }
+    },
+    "Revenue Growth By Store": {
+        "endpoint": "https://bx1unjqo2u0tny1-atpdemo.adb.uk-london-1.oraclecloudapps.com/ords/atpdemo/adr/revgrowthperstorereport",
+        "config": {
+            "filepath": "./chart/config/",
+            "filename": "Revenue Growth By Store.json"
+        }
+    },   
+    "Inventory By Store": {
+        "endpoint": "https://bx1unjqo2u0tny1-atpdemo.adb.uk-london-1.oraclecloudapps.com/ords/atpdemo/adr/invenperstorereport",
+        "config": {
+            "filepath": "./chart/config/",
+            "filename": "Inventory By Store.json"
+        }
+    },  
+    "Revenue Growth By Month": {
+        "endpoint": "https://bx1unjqo2u0tny1-atpdemo.adb.uk-london-1.oraclecloudapps.com/ords/atpdemo/adr/revgrowthpermonthreport",
+        "config": {
+            "filepath": "./chart/config/",
+            "filename": "Revenue Growth By Month.json"
+        }
+    },
+    "Top Selling Products": {
+        "endpoint": "https://bx1unjqo2u0tny1-atpdemo.adb.uk-london-1.oraclecloudapps.com/ords/atpdemo/adr/topsellingprodreport",
+        "config": {
+            "filepath": "./chart/config/",
+            "filename": "Top Selling Products.json"
+        }
+    },
+    "Top Product Association": {
+        "endpoint": "https://bx1unjqo2u0tny1-atpdemo.adb.uk-london-1.oraclecloudapps.com/ords/atpdemo/adr/prodassoreport?query=1",
+        "config": {
+            "filepath": "./chart/config/",
+            "filename": "Top Product Association.json"
+        }
+    }
+}

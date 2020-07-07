@@ -1,0 +1,74 @@
+{
+    "Revenue vs Budget By Month": {
+        "endpoint": {
+            "url": "https://bx1unjqo2u0tny1-atpdemo.adb.uk-london-1.oraclecloudapps.com/ords/atpdemo/adr/revbugreport",
+            "parameters": {}
+        },		
+        "config": {
+            "filepath": "./chart/config/",
+            "filename": "Revenue vs Budget By Month.json"
+        }
+    },
+    "Revenue vs Margin By Store": {
+        "endpoint": {
+            "url": "https://bx1unjqo2u0tny1-atpdemo.adb.uk-london-1.oraclecloudapps.com/ords/atpdemo/adr/revmargreport",
+            "parameters": {}
+        },			
+        "config": {
+            "filepath": "./chart/config/",
+            "filename": "Revenue vs Margin By Store.json"
+        }
+    },
+    "Revenue Growth By Store": {
+        "endpoint": {
+            "url": "https://bx1unjqo2u0tny1-atpdemo.adb.uk-london-1.oraclecloudapps.com/ords/atpdemo/adr/revgrowthperstorereport",
+            "parameters": {}
+        },			
+        "config": {
+            "filepath": "./chart/config/",
+            "filename": "Revenue Growth By Store.json"
+        }
+    },   
+    "Inventory By Store": {
+        "endpoint": {
+            "url": "https://bx1unjqo2u0tny1-atpdemo.adb.uk-london-1.oraclecloudapps.com/ords/atpdemo/adr/invenperstorereport",
+            "parameters": {}
+        },			
+        "config": {
+            "filepath": "./chart/config/",
+            "filename": "Inventory By Store.json"
+        }
+    },  
+    "Revenue Growth By Month": {
+        "endpoint": {
+            "url": "https://bx1unjqo2u0tny1-atpdemo.adb.uk-london-1.oraclecloudapps.com/ords/atpdemo/adr/revgrowthpermonthreport",
+            "parameters": {}
+        },			
+        "config": {
+            "filepath": "./chart/config/",
+            "filename": "Revenue Growth By Month.json"
+        }
+    },
+    "Top Selling Products": {
+        "endpoint": {
+            "url": "https://bx1unjqo2u0tny1-atpdemo.adb.uk-london-1.oraclecloudapps.com/ords/atpdemo/adr/topsellingprodreport",
+            "parameters": {}
+        },			
+        "config": {
+            "filepath": "./chart/config/",
+            "filename": "Top Selling Products.json"
+        }
+    },
+    "Top Product Association": {
+        "endpoint": {
+            "url": "https://bx1unjqo2u0tny1-atpdemo.adb.uk-london-1.oraclecloudapps.com/ords/atpdemo/adr/prodassoreport",
+            "parameters": {
+				"query": 1
+			}
+        },			
+        "config": {
+            "filepath": "./chart/config/",
+            "filename": "Top Product Association.json"
+        }
+    }
+}

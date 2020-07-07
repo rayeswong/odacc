@@ -1,0 +1,30 @@
+{
+    "Revenue vs Budget By Month": {
+        "endpoint": "https://g83prasovuaqpmd-atpdemodb.adb.us-phoenix-1.oraclecloudapps.com/ords/atpdemo/adr/revbugreport",
+        "config": "./chart/config/Revenue vs Budget By Month.json"
+    },
+    "Revenue vs Margin By Store": {
+        "endpoint": "https://g83prasovuaqpmd-atpdemodb.adb.us-phoenix-1.oraclecloudapps.com/ords/atpdemo/adr/revmargreport",
+        "config": "./chart/config/Revenue vs Margin By Store.json"
+    },
+    "Revenue Growth By Store": {
+        "endpoint": "https://g83prasovuaqpmd-atpdemodb.adb.us-phoenix-1.oraclecloudapps.com/ords/atpdemo/adr/revgrowthperstorereport",
+        "config": "./chart/config/Revenue Growth By Store.json"
+    },   
+    "Inventory By Store": {
+        "endpoint": "https://g83prasovuaqpmd-atpdemodb.adb.us-phoenix-1.oraclecloudapps.com/ords/atpdemo/adr/invenperstorereport",
+        "config": "./chart/config/Inventory By Store.json"
+    },  
+    "Revenue Growth By Month": {
+        "endpoint": "https://g83prasovuaqpmd-atpdemodb.adb.us-phoenix-1.oraclecloudapps.com/ords/atpdemo/adr/revgrowthpermonthreport",
+        "config": "./chart/config/Revenue Growth By Month.json"
+    },
+    "Top Selling Products": {
+        "endpoint": "https://g83prasovuaqpmd-atpdemodb.adb.us-phoenix-1.oraclecloudapps.com/ords/atpdemo/adr/topsellingprodreport",
+        "config": "./chart/config/Top Selling Products.json"
+    },
+    "Top Product Association": {
+        "endpoint": "https://g83prasovuaqpmd-atpdemodb.adb.us-phoenix-1.oraclecloudapps.com/ords/atpdemo/adr/prodassoreport?query=1",
+        "config": "./chart/config/Top Product Association.json"
+    }
+}

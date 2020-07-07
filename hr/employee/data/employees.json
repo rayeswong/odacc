@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Peter Parker",
+        "phone": "91239123",
+        "email": "peter.parker@supremo.com"
+    },
+    {
+        "name": "Harry Osborn",
+        "phone": "91238503",
+        "email": "harry.osborn@supremo.com"
+    }
+]

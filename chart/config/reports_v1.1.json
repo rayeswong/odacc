@@ -1,0 +1,171 @@
+{
+    "Revenue vs Budget Per Month": {
+            "reply": [
+                {
+                    "type": "bar",
+                    "data": {
+                        "labels": ["2019/01", "2019/02", "2019/03", "2019/04", "2019/05", "2019/06", "2019/07"],
+                        "datasets": [{
+                            "label": "Revenue",
+                            "data": [16, 16, 17, 18, 20, 23, 25],
+                            "backgroundColor": "rgba(255, 99, 132, 0.2)",
+                            "borderColor": "rgba(255, 99, 132, 1)",
+                            "borderWidth": 1
+                        },
+                        {
+                            "label": "Budget",
+                            "data": [15, 15, 16, 17, 18, 20, 21],
+                            "backgroundColor": "rgba(54, 162, 235, 0.2)",
+                            "borderColor": "rgba(54, 162, 235, 1)",
+                            "borderWidth": 1
+                        }
+                        ]
+                    },
+                    "options": {
+                        "scales": {
+                            "yAxes": [{
+                                "ticks": {
+                                    "beginAtZero": true
+                                }
+                            }]
+                        }
+                    }
+                }
+            ]
+        },
+    "Revenue vs Margin Per Store": {
+            "reply": [
+                {
+                    "type": "bar",
+                    "data": {
+                        "labels": ["Tsim Sha Tsui", "Causeway Bay", "Central", "Mong Kok", "Admiralty", "Wan Chai"],
+                        "datasets": [{
+                            "label": "Revenue",
+                            "data": [21, 23, 25, 12, 19, 18],
+                            "backgroundColor": "rgba(255, 99, 132, 0.2)",
+                            "borderColor": "rgba(255, 99, 132, 1)",
+                            "borderWidth": 1
+                        },
+                        {
+                            "label": "Margin",
+                            "data": [10, 9, 2, 8, 9, 8],
+                            "backgroundColor": "rgba(54, 162, 235, 0.2)",
+                            "borderColor": "rgba(54, 162, 235, 1)",
+                            "borderWidth": 1
+                        }
+                        ]
+                    },
+                    "options": {
+                        "scales": {
+                            "yAxes": [{
+                                "ticks": {
+                                    "beginAtZero": true
+                                }
+                            }]
+                        }
+                    }
+                }
+            ]
+        },
+    "Revenue Growth Per Store": {
+            "reply": [
+                {
+                    "type": "bar",
+                    "data": {
+                        "labels": ["Tsim Sha Tsui", "Causeway Bay", "Central", "Mong Kok", "Admiralty", "Wan Chai"],
+                        "datasets": [{
+                            "label": "Revenue Growth (July 2019 vs July 2018)",
+                            "data": [5, 10, 15, 6, 21, 9],
+                            "backgroundColor": "rgba(255, 99, 132, 0.2)",
+                            "borderColor": "rgba(255, 99, 132, 1)",
+                            "borderWidth": 1
+                        }
+                        ]
+                    },
+                    "options": {
+                        "scales": {
+                            "yAxes": [{
+                                "ticks": {
+                                    "beginAtZero": true
+                                }
+                            }]
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "prompt": "Admiralty store has the highest revenue growth in June.",
+                    "data": {
+                        "text": []
+                    }
+                }
+            ],
+            "event": "awardBonus"
+        },   
+    "Inventory Per Store": {
+            "reply": [
+                {
+                    "type": "bar",
+                    "data": {
+                        "labels": ["Tsim Sha Tsui", "Causeway Bay", "Central", "Mong Kok", "Admiralty", "Wan Chai"],
+                        "datasets": [{
+                            "label": "Inventory",
+                            "data": [11, 13, 22, 13, 11, 12],
+                            "backgroundColor": "rgba(255, 99, 132, 0.2)",
+                            "borderColor": "rgba(255, 99, 132, 1)",
+                            "borderWidth": 1
+                        }
+                        ]
+                    },
+                    "options": {
+                        "scales": {
+                            "yAxes": [{
+                                "ticks": {
+                                    "beginAtZero": true
+                                }
+                            }]
+                        }
+                    }
+                }
+            ]            
+        },  
+    "Revenue Growth Per Month": {
+            "reply": [
+                {
+                    "type": "line",
+                    "data": {
+                        "labels": ["2019/01", "2019/02", "2019/03", "2019/04", "2019/05", "2019/06", "2019/07"],
+                        "datasets": [{
+                            "label": "Revenue Growth",
+                            "fill": false,
+                            "data": [6, 7, 2, 1, -5, 2, 11],
+                            "backgroundColor": "rgba(255, 99, 132, 0.2)",
+                            "borderColor": "rgba(255, 99, 132, 1)",
+                            "borderWidth": 1
+                        }
+                        ]
+                    },
+                    "options": {
+                        "scales": {
+                            "yAxes": [{
+                                "ticks": {
+                                    "beginAtZero": true
+                                }
+                            }]
+                        }
+                    }
+                }
+            ]
+        },  
+    "Top Selling Products": {
+            "reply": [
+                {
+                    "type": "text",
+                    "prompt": "Here are the top selling products last month:\n",
+                    "data": {
+                        "text": ["Latte 22300 USD\n", "Americano 22100 USD\n", "Mocha 22000 USD"]
+                    }
+                }
+            ]
+        }
+}

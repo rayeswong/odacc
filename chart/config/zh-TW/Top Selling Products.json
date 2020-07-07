@@ -1,0 +1,11 @@
+{
+    "reply": [
+        {
+            "type": "text",
+            "prompt": "這是上月最高銷量的商品:\n",
+            "data": {
+                "text": [<#list data['items'][0..2] as item>"${item?counter}. ${item['product name']!''} ${item['subtotal']!''} USD\n"<#sep>,</#list>]
+            }
+        }
+    ]
+}

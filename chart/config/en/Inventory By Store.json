@@ -1,0 +1,27 @@
+{
+    "reply": [
+        {
+            "type": "bar",
+            "data": {
+                "labels": [<#list data['items'] as item>"${item['store name']!""}"<#sep>,</#list>],
+                "datasets": [{
+                    "label": "Inventory",
+                    "data": [<#list data['items'] as item>${item['inventory']!"0"}<#sep>,</#list>],
+                    "backgroundColor": "rgba(255, 99, 132, 0.2)",
+                    "borderColor": "rgba(255, 99, 132, 1)",
+                    "borderWidth": 1
+                }
+                ]
+            },
+            "options": {
+                "scales": {
+                    "yAxes": [{
+                        "ticks": {
+                            "beginAtZero": true
+                        }
+                    }]
+                }
+            }
+        }
+    ]            
+}

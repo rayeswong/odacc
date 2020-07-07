@@ -1,0 +1,11 @@
+{
+    "reply": [
+        {
+            "type": "text",
+            "prompt": "Here are some upsell ideas, customer buy ${context['topProducts'][0]['product name']} also like:\n",
+            "data": {
+                "text": [<#list data['items'][0..2] as item>"${item?counter}. ${item['product name']!''} ${item['ppercent']?string["0.##%"]!''}\n"<#sep>,</#list>]
+            }
+        }
+    ]
+}

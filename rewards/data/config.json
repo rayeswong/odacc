@@ -1,0 +1,7 @@
+{
+  "baseUrl": "https://37696A06923A427D94969D88EAA65168.blockchain.ocp.oraclecloud.com:443",
+  "authToken": "Basic eWsud3VAb3JhY2xlLmNvbTpXZWxjb21lMTIzNDUh",
+  "channel": "ch001",
+  "chaincode": "dxPoints",
+  "chaincodeVer": "v7"
+}
